@@ -18,7 +18,8 @@ body{
 color:#ffffff;
 }
 .maues h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Ver
+sans-serif;
     color:#ffffff;
     font-size: 15pt;
     text-align: center;
@@ -146,8 +147,8 @@ footer{
 }
 nav{
     background-color:rgb(255, 230, 0);
-    padding: 5px;
-    position: fixed;
+    padding: 15px;
+    position:fixed;
     width: 100%;
     
     
@@ -155,6 +156,9 @@ nav{
 
 .Logo {
     max-width: 168px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   .Menu{
       width: 100%;
@@ -162,7 +166,7 @@ nav{
   }
   @media (max-width: 800px) {
     .Logo {
-      max-width: 103px;
+      max-width: 105px;
       z-index: 1;
       position: fixed;
       list-style: none;
@@ -185,9 +189,6 @@ nav{
     z-index: 1;
 }
 
-
-
-
 #contato{
     color: #ffffff;
     list-style: none;
@@ -202,9 +203,101 @@ nav{
     margin-top: 0;
     display: inline-block;
     font-size: 15px;
-    
 
 }
 nav ul li{
     list-style: none;
     text-decoration: none;
+}
+.bebidas p{
+    margin-left:7%;
+}
+
+
+.quemsomos{
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+.contato{
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mensagem{
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.embaixo{
+    list-style: none;
+    text-transform: none;
+    
+}
+footer .embaixo{
+   color: white;
+    list-style: none;
+    text-transform: none;
+    text-decoration: none;
+    width: 100px;
+    
+
+}
+#botao{
+    background-color: white;
+    color: #000;
+    width: 100px;
+    height: 50px;
+}
+#botao:hover{
+    background-color: #fa8416;
+    color: #ffffff;
+    border:#fa8416;
+}
+#email{
+width: 100%;
+height: 20px;
+}
+#telefone{
+    width: 100%;
+    height: 20px;
+}
+#mensagem{
+    width: 100%;
+    height: 70px;
+}
+.quemsomos h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Ver
+    sans-serif;
+     color:#000;
+     font-size: 15pt;
+     text-align: center;
+     align-items: center;
+     padding: 10px;
+     
+
+}
+.quemsomos p{
+    color: #000;
+    font-size: 12pt;
+    text-align: left;
+}
+.contato h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Ver
+    sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    align-items: center;
+    top: 0;
+    padding: 9px;
+
+}
+.contato p{
+    color: #000;
+    font-size: 12pt;
+}
+
